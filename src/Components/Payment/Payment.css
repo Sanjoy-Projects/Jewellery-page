@@ -1,0 +1,66 @@
+.Icons{
+    width: 50px;
+    height: auto;
+    
+}
+.container-payment{
+    background-color: rgba(140, 140, 140, 0.053);
+}
+
+.SecurePayment{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.makeYourPayment{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.vl{
+    border-left: 1px solid rgb(148, 148, 148);
+    height: 250px;
+}
+hr{
+    display: none;
+}
+
+.feedback p{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(148, 148, 148);
+}
+.feedback h4{
+    font-size: 20px;
+    
+}
+.verticalLine {
+    height: 300px;
+    border-right: 1px solid #000900;
+    position: absolute;
+    right: 50%;
+}
+@media(max-width:710px){
+    .SecurePayment{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 50px;
+        
+    }
+    .vl{
+       display: none;
+    }
+    hr{
+        display: block;
+        width: 90%;
+        border: 1px solid rgb(148, 148, 148);
+    }
+}

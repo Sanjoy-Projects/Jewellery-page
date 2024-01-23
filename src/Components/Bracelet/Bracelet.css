@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading-main-bracelet{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.header{
+    background-color: rgba(250, 235, 215, 0.327);
+    padding: 30px 0px;
+    font-size: 30px;
+   
+}
+.header h1{
+    text-align: center;
+}
+
+.dropdown-button{
+    border: 1px solid #9f9f9f;
+    padding: 7px 20px;
+}
+
+.necklace-cart-button{
+    background-color: #CB8161;
+    padding: 5px 10px;
+}
+.Shop-your-favourite-bracelet{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 20px 0px;
+    
+}
+
+.bracelet-images{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: rgba(250, 235, 215, 0.327);
+    padding: 20px 35px;
+   
+}
+.links{
+    color: blue;
+}
+.bracelet-link:hover{
+    color: rgb(238, 122, 55);
+}
+
+.bracelet-sale-button{
+    color: white;
+    padding: 2px 7px;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 15px;
+    background-color: #ff4d00;
+    opacity: 0.9;
+}
+@media(max-width:760px){
+    .bracelet-images{
+        width: 100%;
+
+    }
+    .bracelet-images img{
+        width: 100%;
+    }
+    .Shop-your-favourite-bracelet{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+}

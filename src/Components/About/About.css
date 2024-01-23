@@ -1,0 +1,67 @@
+
+.container-fluid-about{
+    background-color: rgba(140, 140, 140, 0.053);
+}
+
+.OurStory p{
+    font-size: 15px;
+}
+.OurStory h1{
+    font-size: 45px;
+}
+
+.AboutUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.secondColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+.CompanyStory p{
+    width: 550px;
+    font-size: 17px;
+    color: #848484;
+    font-weight: 500;
+}
+
+.btn{
+    background-color: #CB8161;
+    padding: 8px 25px;
+    border-radius: 0px;
+    color: white;
+    font-size: 18px;
+    margin-top: 26px;
+}
+.btn:hover{
+    background-color: black;
+    transition: 0.7s;
+    color: white;
+}
+@media(max-width:1070px){
+    .AboutUs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+   .secondColumn{
+    width: 100%;
+   }
+    .CompanyStory p{
+        width: 100%;
+    }
+    .GoldRingImage img{
+        width: 100%;
+    }
+}
+
+@media(max-width:480px){
+    .CompanyStory p{
+        font-size: 16px;
+    }
+}

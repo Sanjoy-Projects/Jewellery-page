@@ -1,0 +1,75 @@
+.BlogImage{
+    width: 400px;
+    height: 300px;
+}
+.container-fluid-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+   
+}
+.BlogImageSection{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    
+    
+}
+.JwelleryDetails{
+    margin-top: 20px;
+}
+.JwelleryStyle{
+    font-size: 23px;
+}
+.ManufactoringDate{
+    color: #818181;
+}
+.BlogHeading{
+   text-align: center;
+}
+.BlogHeading h5{
+    font-size: 17px;
+}
+.BlogHeading h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+@media(max-width:600px){
+    .BlogImageSection img{
+        height: auto;
+        width: 100%;
+    }
+}
+@media(min-width:800px) and (max-width:1400px){
+    .BlogImageSection img{
+        width: 100%;
+        height: auto;
+    }
+    .BlogImageSection{
+        width: 100%;
+        padding: 0px 10px;
+    }
+}
+@media(max-width:800px){
+    .BlogImageSection{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .BlogImageSection img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:700px){
+    .container-fluid-blog{
+        padding: 60px 0px;
+    }
+}
+

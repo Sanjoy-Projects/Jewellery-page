@@ -1,0 +1,116 @@
+
+.container-footer{
+    background-color: #CB8161;
+}
+
+.footerLogo{
+    width: 180px;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.ListItems p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.UnorderedListItems{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 14px;
+}
+.UnorderedListItems li a:hover{
+    color: black;
+}
+
+.inputBox{
+    width: 200px;
+    padding: 14px;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+    color: black;
+   
+}
+
+.EmailSection{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.emailLoginButton{
+    padding: 14px;
+    width: 100px;
+    border: 1px solid black;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+.emailLoginButton:hover{
+   background-color: #b26c4d8a;
+   transition: 0.8s;
+}
+.companyContactIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-top: 9px;
+}
+.companyContactIcons span{
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 6px;
+    
+}
+.companyContactIcons span:hover{
+    background-color: black;
+    transition: 0.8s;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+@media(max-width:1080px){
+
+    .footerLogo{
+        display: none;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+}
+@media(max-width:580px){
+    .footerLogo{
+        display: block;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 40px;
+    }
+  
+}
